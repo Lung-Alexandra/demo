@@ -1,0 +1,260 @@
+
+:root{
+    /* ===== Colors ===== */
+    --sidebar-color: linear-gradient(280deg,#84b8d8,#C4C4C4FF);
+    --primary-color: #84b8d8;
+    --primary-color-light: linear-gradient(256deg, #a4c0d1, #dadbdf);
+    --toggle-color: #262628;
+    --text-color-slidebar: #353535;
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+
+}
+
+::selection{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.sidebar.dark{
+    --sidebar-color: #242526;
+    --primary-color: #c2c2c3;
+    --primary-color-light: #3a3b3c;
+    --toggle-color: #262628;
+    --text-color-slidebar: #e5e5e5;
+}
+
+/* ===== Sidebar ===== */
+.sidebar{
+    font-size: large;
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 15vw;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: var(--sidebar-color);
+    transition: var(--tran-05);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar.close{
+    width: 0;
+}
+
+.sidebar .close-toggle{
+    padding: 15px 0;
+    position: relative;
+    flex:0;
+}
+
+.close-toggle .toggle{
+    position: absolute;
+    top: 50%;
+    right: -28px;
+    transform: translateY(-50%) rotate(180deg);
+    height: 25px;
+    width: 25px;
+    background: var(--primary-color);
+    color: var(--toggle-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    cursor: pointer;
+    transition: var(--tran-05);
+}
+
+
+
+.sidebar.close .toggle{
+    transform: translateY(-50%) rotate(0deg);
+}
+
+
+.sidebar .menu-bar{
+    overflow: hidden;
+    -ms-overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+    position: relative;
+    flex:5;
+}
+.menu-bar::-webkit-scrollbar{
+    display: none;
+}
+
+
+.sidebar .sections{
+    height: 8%;
+    list-style: none;
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align:center;
+    width: 100%;
+    padding: 7px 7px;
+}
+
+.sidebar .sections a{
+    list-style: none;
+    height: 100%;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 6px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: var(--tran-03);
+    color:var(--text-color-slidebar);
+}
+
+
+.sidebar .sections a:hover{
+    background-color: var(--primary-color);
+}
+
+.sidebar.dark .sections a:hover{
+    background-color: var(--primary-color-light);
+}
+
+
+.sidebar .icon{
+    min-width: 10px;
+    border-radius: 6px;
+}
+
+.sidebar .icon{
+    min-width: 20px;
+    border-radius: 6px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.sidebar .text,
+.sidebar .icon{
+    color: var(--text-color-slidebar);
+    transition: var(--tran-03);
+}
+
+.sidebar .text{
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 1;
+}
+.sidebar.close .text {
+    opacity: 0;
+}
+
+
+/* =========================== */
+
+
+.sidebar .bottom-content{
+    width: 100%;
+    position: relative;
+    justify-self: flex-end;
+    margin:0;
+    flex:1;
+}
+.sidebar.close .bottom-content {
+    display: none;
+}
+
+
+.sidebar .bottom-content .mode{
+    position: absolute;
+    border-radius: 6px;
+    background: var(--primary-color-light);
+    transition: var(--tran-05);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60%;
+    margin:0;
+    bottom: 0;
+
+
+}
+
+/*.sidebar .mode .sun-moon i.moon{*/
+/*    opacity: 1;*/
+/*}*/
+.sidebar .mode .sun-moon i.sun{
+    display: none;
+}
+
+/*.sidebar.dark .sidebar .mode .sun-moon i.sun{*/
+/*    opacity: 1;*/
+
+/*}*/
+.sidebar.dark .sidebar .mode .sun-moon i.moon{
+    display: none;
+}
+
+.sidebar .bottom-content .mode-text{
+    text-wrap: inherit;
+
+}
+
+.sidebar .bottom-content .toggle-switch{
+    position: relative;
+    right: 0;
+    height: 100%;
+    min-width: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.toggle-switch .switch{
+    position: relative;
+    height: 2vh;
+    width: 35px;
+    border-radius: 25px;
+    background-color: var(--toggle-color);
+    transition: var(--tran-05);
+}
+
+.toggle-switch .switch::before{
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    background: var(--primary-color);
+    transition: var(--tran-04);
+}
+
+.sidebar.dark .switch::before{
+    left: 20px;
+}
+
+@media(max-width: 980px){
+    .sidebar{
+        width: 35vw;
+    }
+}
