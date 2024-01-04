@@ -18,13 +18,14 @@
     color: #fff;
 }
 
-.sidebar.dark{
+.dark{
     --sidebar-color: #242526;
-    --primary-color: #c2c2c3;
+    --primary-color: #84b8d8;
     --primary-color-light: #3a3b3c;
     --toggle-color: #262628;
     --text-color-slidebar: #e5e5e5;
 }
+
 
 /* ===== Sidebar ===== */
 .sidebar{
@@ -42,6 +43,9 @@
     z-index: 100;
     display: flex;
     flex-direction: column;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.35);
+    border-width: 1px;
 }
 .sidebar.close{
     width: 0;
@@ -68,6 +72,9 @@
     font-size: 22px;
     cursor: pointer;
     transition: var(--tran-05);
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.35);
+    border-width: 1px;
 }
 
 
