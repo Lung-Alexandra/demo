@@ -1,9 +1,9 @@
 
 :root{
     /* ===== Colors ===== */
-    --sidebar-color: linear-gradient(280deg,#84b8d8,#C4C4C4FF);
+    --sidebar-color: #87cefa;
     --primary-color: #84b8d8;
-    --primary-color-light: linear-gradient(256deg, #a4c0d1, #dadbdf);
+    --primary-color-light:  #a4c0d1;
     --toggle-color: #262628;
     --text-color-slidebar: #353535;
     /* ====== Transition ====== */
