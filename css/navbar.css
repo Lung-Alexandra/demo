@@ -50,12 +50,11 @@
 .sidebar .close-toggle{
     padding: 15px 0;
     position: relative;
-    flex:0;
+    flex:1;
 }
 
 .close-toggle .toggle{
     position: absolute;
-    top: 50%;
     right: -28px;
     transform: translateY(-50%) rotate(180deg);
     height: 25px;
@@ -95,7 +94,7 @@
 
 
 .sidebar .sections{
-    height: 8%;
+    height: 10%;
     list-style: none;
     align-items: center;
     margin-top: 10px;
