@@ -71,7 +71,7 @@ ul,p{
 
 
 .page-section-title{
-    font-size: xx-large;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -120,7 +120,7 @@ ul,p{
 }
 .page-section-content p{
     padding: 5px;
-    font-size: large;
+    font-size: 1rem;
 
 }
 .page-section-content p a{
