@@ -10,14 +10,24 @@
 
 .job .year {
     align-self: flex-end;
+    font-size: 1.7vmax;
 }
 
 .job .where {
     font-weight: bold;
-    font-size: large;
+    font-size: 1.7vmax;
 }
 
 .job .where p{
     font-weight: initial;
-    font-size: initial;
+    font-size: 1.2vmax;
+}
+
+@media(max-device-width:500px) {
+    .job .where, .job.year{
+        font-size: 1.2vmax;
+    }
+    .job .where p{
+        font-size: 1vmax;
+    }
 }

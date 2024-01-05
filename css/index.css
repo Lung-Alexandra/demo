@@ -1,8 +1,8 @@
 
 * {
-    --box-height: 5vh;
+    --box-height: 5vmin;
     --box-width: 10vw;
-    --before-coef-height: 5;
+    --before-coef-height: 4;
     --before-coef-hover-height: 6;
     --before-coef-hover-width: 1.4;
 }
