@@ -118,7 +118,9 @@ ul,p{
     margin-bottom:2%;
 
 }
-.page-section-content p{
+.page-section-content p,
+.page-section-content p span,
+.page-section-content p a{
     padding: 5px;
     font-size: 1rem;
 
@@ -132,4 +134,17 @@ ul,p{
 }
 .link{
     color: var(--link-color);
+}
+
+
+@media(max-device-width: 500px ){
+    .page-section-title{
+        font-size: 1.5rem;
+    }
+    .page-section-content p,
+    .page-section-content p span,
+    .page-section-content p a{
+        font-size: 0.7rem;
+
+    }
 }
