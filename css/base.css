@@ -1,12 +1,13 @@
 :root {
     --background-color: #FAFAFA;
     --scrollbar-color: #637fa3;
-
+    --link-color: #4160df;
 }
 
 body.dark{
     --background-color: #18181B;
     --scrollbar-color: #637fa3;
+    --link-color: #84b8d8;
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -32,7 +33,7 @@ body.dark{
 
 
 body {
-    font-family: cursive, sans-serif;
+    font-family: 'Lato', sans-serif;
     margin:0;
     padding: 0;
     width: 100%;
@@ -70,7 +71,7 @@ ul,p{
 
 
 .page-section-title{
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
 }
 
@@ -114,12 +115,21 @@ ul,p{
     align-items: center;
     justify-content: center;
     margin-top:2%;
+    margin-bottom:2%;
 
 }
 .page-section-content p{
     padding: 5px;
+    font-size: large;
+
+}
+.page-section-content p a{
+   text-decoration: none;
 
 }
 .bold{
   font-weight: bold;
+}
+.link{
+    color: var(--link-color);
 }

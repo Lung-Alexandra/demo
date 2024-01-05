@@ -29,7 +29,7 @@
 
 /* ===== Sidebar ===== */
 .sidebar{
-    font-size: large;
+    font-size: 1.2rem;
     position: -webkit-sticky; /* for Safari */
     position: sticky;
     top: 0;
