@@ -1,4 +1,10 @@
-.job {
+*{
+    --title-font-size: 1.6vmax;
+    --p-font-size: 1.4vmax;
+    --title-font-size-little: 1.2vmin;
+    --p-font-size-little: 1vmin;
+}
+.job , .project{
     width: 90%;
     padding: 1rem;
     position: relative;
@@ -10,24 +16,41 @@
 
 .job .year {
     align-self: flex-end;
-    font-size: 1.7vmax;
+    font-size:var(--title-font-size);
 }
 
-.job .where {
+.job .where, .project .title{
     font-weight: bold;
-    font-size: 1.7vmax;
+    font-size:var(--title-font-size);
 }
 
 .job .where p{
     font-weight: initial;
-    font-size: 1.2vmax;
+    font-size: var(--p-font-size);
+}
+.project p{
+    font-weight: initial;
+    display: initial;
+    font-size:var(--p-font-size);
+}
+
+.project .title{
+    display: initial;
+}
+.project p,
+.title a{
+    padding: 5px;
+
+}
+.title a{
+    text-decoration: none;
 }
 
 @media(max-device-width:500px) {
     .job .where, .job.year{
-        font-size: 1.2vmax;
+        font-size: var(--title-font-size-little);
     }
     .job .where p{
-        font-size: 1vmax;
+        font-size: var(--p-font-size-little);
     }
 }

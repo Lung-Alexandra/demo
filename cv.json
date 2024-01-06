@@ -1,0 +1,170 @@
+{
+  "sections": [
+    {
+      "title": "Personal information",
+      "content": [
+        {
+          "label": "Surname",
+          "value": "Stupariu"
+        },
+        {
+          "label": "Christian names",
+          "value": "Mihai-Sorin"
+        },
+        {
+          "label": "Academic degree",
+          "value": "Ph.D."
+        },
+        {
+          "label": "Date of birth",
+          "value": "25.11.1968."
+        },
+        {
+          "label": "Place of birth",
+          "value": "Sibiu, Romania"
+        },
+        {
+          "label": "Citizenship",
+          "value": "Romanian"
+        },
+        {
+          "label": "Civil status",
+          "value": "married, one child"
+        }
+      ],
+      "style": {}
+    },
+    {
+      "title": "University and graduate studies",
+      "content": [
+        {
+          "year": "1988-1993",
+          "where": "Faculty of Mathematics, Bucharest University"
+        },
+        {
+          "year": "1993",
+          "where": "Master Degree (Diploma) in Mathematics, Bucharest University",
+          "thesisTitle": "The Evolution of the Views on the Solar System",
+          "advisors": "Prof. K.Teleman"
+        },
+        {
+          "year": "1996-1998",
+          "where": "Ph.D.-student, with a position as assistant at the Institute of Mathematics of Zurich University"
+        },
+        {
+          "year": "June 1998",
+          "where": "Ph. D., Zurich University",
+          "thesisTitle": "The Kobayashi-Hitchin Correspondence for Vortex-Type Equations Coupled with Higgs Fields",
+          "advisors": [
+            "Prof. Ch. Okonek",
+            "Prof. A. Teleman"
+          ]
+        }
+      ],
+      "style": {}
+    },
+    {
+      "title": "Academic positions",
+      "content": [
+        {
+          "year": "1993-1996",
+          "where": "Subassistant, Faculty of Mathematics, University of Bucharest"
+        },
+        {
+          "year": "1996-1999",
+          "where": "Assistant, Institute of Mathematics, University of Zurich"
+        },
+        {
+          "year": "1999-March 2001",
+          "where": "Assistant, Faculty of Mathematics, University of Bucharest"
+        },
+        {
+          "year": "April-June 2001",
+          "where": "EAGER postdoctoral fellowship, University of Zurich"
+        },
+        {
+          "year": "July 2001-June 2002",
+          "where": "Postdoctoral assistant, University of Zurich"
+        },
+        {
+          "year": "July 2002-June 2003",
+          "where": "Postdoctoral assistant, University of Leiden"
+        },
+        {
+          "year": "Oct. 2003 - Sept. 2004",
+          "where": "Postdoctoral assistant, University of Zurich"
+        },
+        {
+          "year": "Oct. 2004-Sept. 2005",
+          "where": "Assistant, Faculty of Mathematics, University of Bucharest"
+        },
+        {
+          "year": "Oct. 2005-Sept. 2016",
+          "where": "Lecturer (Assistant professor), University of Bucharest"
+        },
+        {
+          "year": "Since Oct. 2016",
+          "where": "Associate professor, University of Bucharest"
+        }
+      ],
+      "style": {}
+    },
+    {
+      "title": "Research projects",
+      "content": [
+        {
+          "phrase": "Research team member of the projects:"
+        },
+        {
+          "title": "Improved wind energy assessment based on coupled wind, terrain and vegetation modeling",
+          "link": "https://landscape.cc.unibuc.ro/projects/windland/",
+          "team": [
+            "(PI of the Romanian team);Joint Research Project, Romanian-Swiss Research Programme (2013-2015)",
+            "Swiss PI: Prof. Fernando Porte-Agel"
+          ]
+        },
+        {
+          "title": "Development and implementation of an algorithm for landscape assessment and prognosis. Application to the mountainous and subcarpathian sector of the Prahova Valley",
+          "link": "https://fmi.unibuc.ro/geomatica/",
+          "team": " CNCSIS. Project manager: Prof. I. Patru-Stupariu."
+        },
+        {
+          "title": "Riemannian geometry and applications",
+          "team": "CEEX. Project manager: Prof. I. Mihai."
+        },
+        {
+          "title": "Riemann spaces invariants and applications",
+          "team": [
+            " CNCSIS (National University Research Council, Romania)",
+            " Project manager: Prof. I. Mihai."
+          ]
+        },
+        {
+          "title": "Project Complex Geometry",
+          "team": [
+            "Swiss National Foundation",
+            " Project manager: Prof. Ch. Okonek."
+          ]
+        },
+        {
+          "title": "Project EAGER (European algebraic geometry research and training network)",
+          "team": "IHP Research Network"
+        }
+      ],
+      "style": {
+        "alignItems": "initial"
+      }
+    },
+    {
+      "title": "Organizational activities",
+      "content": [
+        {
+          "activity": "Editorial Secretary of ",
+          "linkwords": "Annals of the University of Bucharest (Mathematical Series)",
+          "link": "https://fmi.unibuc.ro/ro/annals_of_UB/"
+        }
+      ],
+      "style": {}
+    }
+  ]
+}
