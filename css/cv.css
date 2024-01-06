@@ -46,8 +46,11 @@
     text-decoration: none;
 }
 
-@media(max-device-width:500px) {
-    .job .where, .job.year{
+@media(max-width: 500px) {
+    body {
+        background-color: red;
+    }
+    .job .where, .job .year{
         font-size: var(--title-font-size-little);
     }
     .job .where p{
