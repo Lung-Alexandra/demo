@@ -47,13 +47,10 @@
 }
 
 @media(max-width: 500px) {
-    body {
-        background-color: red;
-    }
-    .job .where, .job .year{
+    .job .where, .job .year, .project .title{
         font-size: var(--title-font-size-little);
     }
-    .job .where p{
+    .job .where p, .project p{
         font-size: var(--p-font-size-little);
     }
 }
