@@ -1,8 +1,8 @@
 *{
     --title-font-size: 1.6vmax;
     --p-font-size: 1.4vmax;
-    --title-font-size-little: 1.2vmin;
-    --p-font-size-little: 1vmin;
+    --title-font-size-little: 1.2vmax;
+    --p-font-size-little: 1vmax;
 }
 .job , .project{
     width: 90%;
@@ -46,7 +46,7 @@
     text-decoration: none;
 }
 
-@media(max-width: 500px) {
+@media screen and (max-width: 500px) {
     .job .where, .job .year, .project .title{
         font-size: var(--title-font-size-little);
     }

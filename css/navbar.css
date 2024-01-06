@@ -29,7 +29,7 @@
 
 /* ===== Sidebar ===== */
 .sidebar{
-    font-size: 1.2rem;
+    font-size: 1.2vmax;
     position: -webkit-sticky; /* for Safari */
     position: sticky;
     top: 0;
@@ -160,7 +160,7 @@
 
 .sidebar .text{
     align-self: center;
-    font-size: 1rem;
+    font-size: 1vmax;
     font-weight: 500;
     white-space: nowrap;
     opacity: 1;
@@ -259,7 +259,7 @@
     left: 20px;
 }
 
-@media(max-width: 980px){
+@media screen and (max-width: 980px){
     .sidebar{
         width: 35vw;
     }

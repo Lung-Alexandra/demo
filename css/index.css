@@ -1,8 +1,8 @@
 
 * {
-    --box-height: 5vmin;
+    --box-height: 50px;
     --box-width: 10vw;
-    --before-coef-height: 4;
+    --before-coef-height: 5;
     --before-coef-hover-height: 6;
     --before-coef-hover-width: 1.4;
 }
@@ -14,8 +14,8 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 40px 0;
-    width: 100%;
-    margin: 20px;
+    width: 95%;
+    margin: 3%;
 }
 
 .container .boxs {
@@ -112,7 +112,7 @@
 }
 
 .container .boxs .info h2 {
-    font-size: 1.9vw;
+    font-size: 1.5vmax;
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
 }
@@ -121,7 +121,7 @@
 .container .boxs .info a {
     display: inline-block;
     position: relative;
-    font-size: 75%;
+    font-size: 1.1vmax;
     color: var(--text-color-slidebar);
     background: var(--primary-color-light);
     padding: 10px;
@@ -137,4 +137,16 @@
 
 .container .boxs .info a:hover {
     background-color: var(--primary-color);
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .container .boxs::before {
+        height: calc((var(--before-coef-height) - 2) * var(--box-height));
+    }
+}
+@media screen and (max-width: 500px) {
+    .container .boxs::before {
+        height: calc((var(--before-coef-height) - 1) * var(--box-height));
+    }
 }
