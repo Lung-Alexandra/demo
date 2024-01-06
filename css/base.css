@@ -140,7 +140,7 @@ ul,p{
 
 
 @media(max-width: 500px){
-    .page-section-title .page-section-title{
+    .page-section .page-section-title{
         font-size: 1.5vmin;
     }
     .page-section-content p,
