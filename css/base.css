@@ -73,7 +73,7 @@ ul,p{
 
 
 .page-section .page-section-title{
-    font-size: 1.8vmax;
+    font-size: var(--font-size-big);
     font-weight: bold;
 }
 
@@ -125,7 +125,7 @@ ul,p{
 .page-section-content p span,
 .page-section-content p a{
     padding: 5px;
-    font-size: 1.4vmax;
+    font-size: var(--font-size-medium);
 
 }
 .page-section-content p a{
@@ -143,12 +143,12 @@ ul,p{
 
 @media screen and (max-width: 500px){
     .page-section .page-section-title{
-        font-size: 1.3vmax;
+        font-size: var(--font-size-medium);
     }
     .page-section-content p,
     .page-section-content p span,
     .page-section-content p a{
-        font-size: 1vmax;
+        font-size: var(--font-size-small);
 
     }
 }

@@ -112,7 +112,7 @@
 }
 
 .container .boxs .info h2 {
-    font-size: 1.5vmax;
+    font-size: var(--font-size-big);
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
 }
@@ -121,7 +121,7 @@
 .container .boxs .info a {
     display: inline-block;
     position: relative;
-    font-size: 1.1vmax;
+    font-size: var(--font-size-medium);
     color: var(--text-color-slidebar);
     background: var(--primary-color-light);
     padding: 10px;
@@ -161,7 +161,7 @@
 .page-section-ab-content .section-text p span,
 .page-section-ab-content .section-text p a {
     padding: 5px;
-    font-size: 1.4vmax;
+    font-size: var(--font-size-medium);
 
 }
 
