@@ -2,12 +2,14 @@
     --background-color: #FAFAFA;
     --scrollbar-color: #637fa3;
     --link-color: #4160df;
+    --shadow-color:#84B8D8FF;
 }
 
 body.dark{
     --background-color: #18181B;
     --scrollbar-color: #637fa3;
     --link-color: #84b8d8;
+    --shadow-color: #45677c;
 }
 
 /* ===== Scrollbar CSS ===== */

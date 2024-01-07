@@ -1,0 +1,228 @@
+{
+  "publications": [
+    {
+      "title": "Graph-Based Wavelet Representation of Multi-Variate Terrain Data",
+      "subtitle": "Computer Graphics Forum",
+      "authors": "T. Cioaca, B. Dumitrescu, M.S. Stupariu",
+      "details": {
+        "link": "https://doi.org/10.1111/cgf.12670",
+        "year": 2015
+      }
+    },
+    {
+      "title": "Filtrations, weights and quiver problems",
+      "subtitle": "Linear Algebra and Its Applications",
+      "authors": "M.S. Stupariu",
+      "details": {
+        "volume": 436,
+        "year": 2012,
+        "pages": "648-658"
+      }
+    },
+    {
+      "title": "The integration of historical maps in landscape reconstruction. Case study: Sinaia, Romania",
+      "subtitle": "Journal of Maps",
+      "volume": "v 2011",
+      "authors": "I. Patru-Stupariu, M.S. Stupariu, R. Cuculici and A. Huzui",
+      "details": {
+        "year": 2011,
+        "pages": "206-220"
+      }
+    },
+    {
+      "title": "Contribution of global indicators to landscape change modeling. Case study: Prahova Valley (Romanian Carpathians and Subcarpathians)",
+      "subtitle": "International Journal of the Physical Sciences",
+      "volume": 6,
+      "authors": "I. Patru-Stupariu, M.S. Stupariu, R. Cuculici and A. Huzui",
+      "details": {
+        "year": 2011,
+        "pages": "534-539"
+      }
+    },
+    {
+      "title": "Modele matematice utilizate pentru evaluarea vizuala in situ a peisajului – studiu de caz orasul Sinaia",
+      "subtitle": "Forum Geografic, Studii si cercetari de geografie si protectia mediului",
+      "volume": 9,
+      "authors": "I. Patru-Stupariu, M.S. Stupariu and A. Huzui",
+      "details": {
+        "year": 2010,
+        "pages": "133-138"
+      }
+    },
+    {
+      "title": "Representations of quivers and associated gauge-theoretical problems",
+      "subtitle": "Bull. of the Transilvania University of Brasov, series III",
+      "volume": "1 (50)",
+      "authors": "M.S. Stupariu",
+      "details": {
+        "year": 2008,
+        "pages": "387-394"
+      }
+    },
+    {
+      "title": "Some properties of the $(G,ρ)$-monopoles",
+      "subtitle": "Bull. of the Transilvania University of Brasov, series B",
+      "volume": "14 (49)",
+      "authors": "M.S. Stupariu",
+      "details": {
+        "year": 2007,
+        "pages": "315-323"
+      }
+    },
+    {
+      "title": "A compactness criterion for quotients associated to linear actions",
+      "subtitle": "Analele Universitatii din Bucuresti, Matematica",
+      "volume": "LVI",
+      "authors": "M.S. Stupariu",
+      "details": {
+        "year": 2007,
+        "pages": "221-230"
+      }
+    },
+    {
+      "title": "GIT-stability for a class of linear systems",
+      "subtitle": "Math. Reports",
+      "volume": "9 (59)",
+      "authors": "M.S. Stupariu",
+      "details": {
+        "year": 2007,
+        "pages": "377-384"
+      }
+    },
+    {
+      "title": "Modele matematice utilizate pentru evaluarea in teren a peisajului",
+      "subtitle": "Comunicari de Geografie",
+      "volume": "XI",
+      "authors": "I. Patru-Stupariu and M.S. Stupariu",
+      "details": {
+        "year": 2007,
+        "pages": "517-519"
+      }
+    },
+    {
+      "title": "Teaching Linear Algebra to students in Informatics",
+      "subtitle": "Proceedings CAIM 14, Romai Educational Journal",
+      "volume": "2",
+      "authors": "C. Voica and M.S. Stupariu",
+      "details": {
+        "year": 2007,
+        "pages": "74-77"
+      }
+    },
+    {
+      "title": "Reprezentari mentale ale conceptelor de algebra liniara",
+      "subtitle": "Bull. SSM, Proceedings of the RMS Conference",
+      "authors": "C. Voica and M.S. Stupariu",
+      "details": {
+        "year": 2006
+      }
+    },
+    {
+      "title": "Un studiu privind invatarea spatiilor vectoriale",
+      "subtitle": "Proceedings CAIM 13, Romai Educational Journal",
+      "volume": "1",
+      "authors": "C. Voica and M.S. Stupariu",
+      "details": {
+        "year": 2006,
+        "pages": "64-72"
+      }
+    },
+    {
+      "title": "Rings of invariants for representations of quivers",
+      "subtitle": "C.R.Acad.Sci.Paris, Ser.I",
+      "volume": 340,
+      "authors": "M. Halic and M.S. Stupariu",
+      "details": {
+        "year": 2005,
+        "pages": "135-140"
+      }
+    },
+    {
+      "title": "Quotients in algebraic and symplectic geometry",
+      "subtitle": "Anual Report 2002, Institute of Mathematics, University of Leiden",
+      "pages": "5-12",
+      "authors": "M.S. Stupariu",
+      "details": {
+        "year": 2002
+      }
+    },
+    {
+      "title": "Stability in linear problems",
+      "subtitle": "Preprint MI-2003-22, University of Leiden",
+      "authors": "M.S. Stupariu",
+      "details": {
+        "year": 2003
+      }
+    },
+    {
+      "title": "On the (G,ρ)-monopole equations",
+      "subtitle": "Revue Roumaine Math. Pures et Appliquees",
+      "volume": 48,
+      "authors": "M.S. Stupariu",
+      "details": {
+        "year": 2003,
+        "pages": "311-326"
+      }
+    },
+    {
+      "title": "The Kobayashi-Hitchin correspondence for vortex-type equations coupled with Higgs fields (II)",
+      "subtitle": "Math. Reports",
+      "volume": "4 (54)",
+      "authors": "M.S. Stupariu",
+      "details": {
+        "year": 2002,
+        "pages": "123-142"
+      }
+    },
+    {
+      "title": "The Kobayashi-Hitchin correspondence for vortex-type equations coupled with Higgs fields (I)",
+      "subtitle": "Math. Reports",
+      "volume": "3 (53)",
+      "authors": "M.S. Stupariu",
+      "details": {
+        "year": 2001,
+        "pages": "425-444"
+      }
+    },
+    {
+      "title": "Dimensional reduction of monopole equations",
+      "subtitle": "Math. Reports",
+      "volume": "3 (53)",
+      "authors": "M.S. Stupariu",
+      "details": {
+        "year": 2001,
+        "pages": "293-303"
+      }
+    },
+    {
+      "title": "Sur les courbes caracteristiques associees a l'algebre de deformation des deux connexions lineaires",
+      "subtitle": "Studii si cercetari matematice",
+      "volume": "5-6 (49)",
+      "authors": "M.S. Stupariu",
+      "details": {
+        "year": 1997,
+        "pages": "423-427"
+      }
+    },
+    {
+      "title": "On conformally semisymmetric connections",
+      "subtitle": "An.Univ.Oradea, Fasc. Matem.",
+      "volume": "V",
+      "authors": "L. Nicolescu, I.E. Hirica and M.S. Stupariu",
+      "details": {
+        "year": "1995-1996",
+        "pages": "135-149"
+      }
+    },
+    {
+      "title": "Champs m-speciaux dans l'algebre de deformation",
+      "subtitle": "An.Univ.Oradea, Fasc. Matem.",
+      "volume": "V",
+      "authors": "L. Nicolescu, I.E. Hirica and M.S. Stupariu",
+      "details": {
+        "year": "1995-1996",
+        "pages": "119-134"
+      }
+    }
+  ]
+}

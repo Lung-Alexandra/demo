@@ -114,6 +114,7 @@
 }
 
 .sidebar .sections a{
+    font-size: 1.2vmax;
     list-style: none;
     height: 100%;
     background-color: transparent;
@@ -160,7 +161,7 @@
 
 .sidebar .text{
     align-self: center;
-    font-size: 1vmax;
+    font-size: 1.2vmax;
     font-weight: 500;
     white-space: nowrap;
     opacity: 1;
