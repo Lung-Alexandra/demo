@@ -8,17 +8,18 @@
 }
 
 
-.container {
+.cards {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 40px 0;
     width: 95%;
+    height: fit-content;
     margin: 3%;
 }
 
-.container .boxs {
+.cards .boxs {
     position: relative;
     width: var(--box-width);
     height: var(--box-height);
@@ -30,7 +31,7 @@
     transition: 0.5s;
 }
 
-.container .boxs::before {
+.cards .boxs::before {
     content: ' ';
     position: absolute;
     align-self: auto;
@@ -43,7 +44,7 @@
     transition: 0.5s;
 }
 
-.container .boxs::after {
+.cards .boxs::after {
     content: '';
     position: absolute;
     align-self: auto;
@@ -56,8 +57,8 @@
     filter: blur(30px);
 }
 
-.container .boxs:hover:before,
-.container .boxs:hover:after {
+.cards .boxs:hover:before,
+.cards .boxs:hover:after {
     transform: skewX(0deg);
     width: calc(var(--before-coef-hover-width) * var(--box-width));
     height: calc(var(--before-coef-hover-height) * var(--box-height));
@@ -65,33 +66,33 @@
 
 }
 
-.container .boxs:nth-child(1):before,
-.container .boxs:nth-child(1):after {
+.cards .boxs:nth-child(1):before,
+.cards .boxs:nth-child(1):after {
     background: linear-gradient(315deg, #7facf3, #59d8f5)
 }
 
-.container .boxs:nth-child(2):before,
-.container .boxs:nth-child(2):after {
+.cards .boxs:nth-child(2):before,
+.cards .boxs:nth-child(2):after {
     background: linear-gradient(315deg, #79d1fa, #7facf3)
 }
 
-.container .boxs:nth-child(3):before,
-.container .boxs:nth-child(3):after {
+.cards .boxs:nth-child(3):before,
+.cards .boxs:nth-child(3):after {
     background: linear-gradient(315deg, #8fd9f0, #59d8f5)
 }
 
-.container .boxs:nth-child(4):before,
-.container .boxs:nth-child(4):after {
+.cards .boxs:nth-child(4):before,
+.cards .boxs:nth-child(4):after {
     background: linear-gradient(315deg, #59d8f5, #8fd9f0)
 }
 
-.container .boxs:nth-child(5):before,
-.container .boxs:nth-child(5):after {
+.cards .boxs:nth-child(5):before,
+.cards .boxs:nth-child(5):after {
     background: linear-gradient(315deg, #7facf3, #79d1fa)
 }
 
 
-.container .boxs .info {
+.cards .boxs .info {
     position: relative;
     left: 0;
     padding: 20px 15px;
@@ -107,18 +108,18 @@
     border-width: 1px;
 }
 
-.container .boxs:hover .info {
+.cards .boxs:hover .info {
     padding: 15px 10px;
 }
 
-.container .boxs .info h2 {
+.cards .boxs .info h2 {
     font-size: var(--font-size-big);
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
 }
 
 
-.container .boxs .info a {
+.cards .boxs .info a {
     display: inline-block;
     position: relative;
     font-size: var(--font-size-medium);
@@ -135,26 +136,27 @@
 }
 
 
-.container .boxs .info a:hover {
+.cards .boxs .info a:hover {
     background-color: var(--primary-color);
 }
-.page-section .page-section-ab-content{
+
+.page-section .page-section-ab-content {
     width: 90%;
-    height: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
-.page-section .page-section-ab-content .section-text{
+.page-section .page-section-ab-content .section-text {
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 2%;
-
+    flex: 1;
 }
 
 .page-section-ab-content .section-text p,
@@ -170,23 +172,72 @@
 
 }
 
-.page-section-ab-content img {
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px var(--shadow-color);
-    position: relative;
-    align-self: center;
-    width: 50%;
-    height: 90%;
+.page-section-ab-content .image {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
 }
 
+.page-section-ab-content .image img {
+    max-width: 300px;
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px var(--shadow-color);
+}
+
+
 @media screen and (min-width: 500px) and (max-width: 900px) {
-    .container .boxs::before {
+    .cards .boxs::before {
         height: calc((var(--before-coef-height) - 2) * var(--box-height));
     }
 }
 
 @media screen and (max-width: 500px) {
-    .container .boxs::before {
+    .cards .boxs::before {
         height: calc((var(--before-coef-height) - 1) * var(--box-height));
     }
 }
+
+@media screen and (max-width: 600px) {
+    .cards .boxs::before {
+        height: calc((var(--before-coef-height) - 1) * var(--box-height));
+    }
+
+    .page-section .page-section-ab-content {
+        height: auto;
+        flex-direction: column;
+
+    }
+
+    .page-section .page-section-ab-content .section-text {
+        width: 100%;
+        height: fit-content;
+        order: 2;
+
+    }
+
+    .page-section-ab-content .image {
+        align-self: center;
+
+        width: 100%;
+        order: 1;
+    }
+
+    .page-section-ab-content .image img {
+margin-top: 10px;
+        width: 100%;
+        min-height: 200px;
+
+    }
+
+
+}
+
+
+
