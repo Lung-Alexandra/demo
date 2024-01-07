@@ -1,4 +1,7 @@
 // import {renderCv} from "./index.js";
+$().ready(function () {
+    AOS.init();
+});
 
 $.get("navbar.html", function (data) {
     $("nav").replaceWith(data);

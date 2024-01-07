@@ -138,13 +138,53 @@
 .container .boxs .info a:hover {
     background-color: var(--primary-color);
 }
+.page-section .page-section-ab-content{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
+.page-section .page-section-ab-content .section-text{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+
+}
+
+.page-section-ab-content .section-text p,
+.page-section-ab-content .section-text p span,
+.page-section-ab-content .section-text p a {
+    padding: 5px;
+    font-size: 1.4vmax;
+
+}
+
+.page-section-ab-content .section-text p a {
+    text-decoration: none;
+
+}
+
+.page-section-ab-content img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px var(--shadow-color);
+    position: relative;
+    align-self: center;
+    width: 50%;
+    height: 90%;
+}
 
 @media screen and (min-width: 500px) and (max-width: 900px) {
     .container .boxs::before {
         height: calc((var(--before-coef-height) - 2) * var(--box-height));
     }
 }
+
 @media screen and (max-width: 500px) {
     .container .boxs::before {
         height: calc((var(--before-coef-height) - 1) * var(--box-height));
