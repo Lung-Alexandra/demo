@@ -185,6 +185,9 @@
     width: 100%;
     position: relative;
     justify-self: flex-end;
+    display: flex;
+    flex-direction: column-reverse;
+    bottom: 0;
     margin: 0;
     flex: 1;
 }
@@ -195,8 +198,8 @@
 
 
 .sidebar .bottom-content .mode {
-    position: absolute;
-    border-radius: 6px;
+    position: relative;
+    border-radius: 0 6px 6px 0;
     background: var(--primary-color-light);
     transition: var(--tran-05);
     display: flex;
@@ -206,28 +209,22 @@
     height: 60%;
     margin: 0;
     bottom: 0;
-
-
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.35);
+    border-width: 1px;
 }
 
-/*.sidebar .mode .sun-moon i.moon{*/
-/*    opacity: 1;*/
-/*}*/
 .sidebar .mode .sun-moon i.sun {
     display: none;
 }
 
-/*.sidebar.dark .sidebar .mode .sun-moon i.sun{*/
-/*    opacity: 1;*/
-
-/*}*/
 .sidebar.dark .sidebar .mode .sun-moon i.moon {
     display: none;
 }
 
 .sidebar .bottom-content .mode-text {
     text-wrap: inherit;
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-big);
 }
 
 .sidebar .bottom-content .toggle-switch {
@@ -281,6 +278,6 @@
 
     .sidebar .bottom-content .mode-text {
         text-wrap: inherit;
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-medium);
     }
 }
