@@ -39,7 +39,7 @@
     position: sticky;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 100dvh;
     width: 15vw;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
