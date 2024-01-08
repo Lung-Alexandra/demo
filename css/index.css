@@ -1,20 +1,21 @@
 
 * {
-    --box-height: 50px;
-    --box-width: 10vw;
+    --box-height: 6dvh;
+    --box-width: 10dvw;
     --before-coef-height: 5;
-    --before-coef-hover-height: 6;
-    --before-coef-hover-width: 1.4;
+    --before-coef-hover-height: 4;
+    --before-coef-hover-width: 2;
 }
 
 
 .cards {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     padding: 40px 0;
-    width: 95%;
+    width: 90%;
     height: fit-content;
     margin: 3%;
 }
@@ -38,7 +39,6 @@
     width: var(--box-width);
     height: calc(var(--before-coef-height) * var(--box-height));
     text-decoration: none;
-    background: #fff;
     border-radius: 8px;
     transform: skewX(15deg);
     transition: 0.5s;
@@ -50,7 +50,6 @@
     align-self: auto;
     width: 100%;
     height: 100%;
-    background: #fff;
     border-radius: 8px;
     transform: skewX(15deg);
     transition: 0.5s;
@@ -94,15 +93,16 @@
 
 .cards .boxs .info {
     position: relative;
-    left: 0;
+   height: fit-content;
     padding: 20px 15px;
     backdrop-filter: blur(10px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     z-index: 1;
     min-height: 100%;
-    min-width: 100%;
-    text-wrap: normal;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.35);
     border-width: 1px;
@@ -122,6 +122,7 @@
 .cards .boxs .info a {
     display: inline-block;
     position: relative;
+    align-self: center;
     font-size: var(--font-size-medium);
     color: var(--text-color-slidebar);
     background: var(--primary-color-light);
@@ -129,6 +130,7 @@
     border-radius: 4px;
     text-decoration: none;
     font-weight: 600;
+    text-wrap: nowrap;
     margin-top: 5px;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.35);
@@ -194,13 +196,16 @@
 
 @media screen and (min-width: 500px) and (max-width: 900px) {
     .cards .boxs::before {
-        height: calc((var(--before-coef-height) - 2) * var(--box-height));
+        height: calc((var(--before-coef-height) - 1) * var(--box-height));
     }
 }
 
 @media screen and (max-width: 500px) {
+    .cards .boxs .info {
+        padding: 20px 9px;
+    }
     .cards .boxs::before {
-        height: calc((var(--before-coef-height) - 1) * var(--box-height));
+        height: calc((var(--before-coef-height) - 2) * var(--box-height));
     }
 }
 
@@ -230,12 +235,11 @@
     }
 
     .page-section-ab-content .image img {
-margin-top: 10px;
+        margin-top: 10px;
         width: 100%;
         min-height: 200px;
 
     }
-
 
 }
 

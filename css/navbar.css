@@ -223,6 +223,7 @@
 }
 
 .sidebar .bottom-content .mode-text {
+    text-align: center;
     text-wrap: inherit;
     font-size: var(--font-size-big);
 }
