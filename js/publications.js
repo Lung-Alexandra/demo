@@ -1,8 +1,7 @@
 $.getJSON('publications.json', function (jsonData) {
     $.each(jsonData.sections, function (index, sec) {
-        var section = '<div class="page-section"><div class="page-section-title">' + sec.title + '</div>' +
-            '<div class="line"></div>' +
-            '<div class="geometric-box"></div></div>'
+        var section = '<div class="up-titles"><div class="bold subtiles"><span>' + sec.title + '</span></div>' +
+            '</div>'
         $('.content').append(section);
         $.each(sec.content, function (index, publication) {
             var pub = '<div class="publication">';
@@ -11,11 +10,11 @@ $.getJSON('publications.json', function (jsonData) {
                 publication.authors,
                 '<span class="italic">' + publication.title + '</span>',
                 publication.subtitle,
+                publication.place,
                 publication.year,
                 publication.volume,
                 publication.page ? '<span class="nowraptext">' + publication.page + '</span>' : '', // Verificare pentru pagini
-                publication.yearAfter,
-                publication.place
+                publication.yearAfter
             ].filter(Boolean).join(", ");
             pub += '</div>'
 

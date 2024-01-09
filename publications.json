@@ -1,5 +1,5 @@
 {
-  "publications": [
+  "sections": [
     {
       "title": "Domeniul principal de interes",
       "content": [
@@ -351,7 +351,7 @@
         },
         {
           "title": "Heuristic-driven Graph Wavelet Modeling of Complex Terrain",
-          "place": "International Conference on Graphic and Image Processing Beijing 2014",
+          "place": "International Conference on Graphic and Image Processing Beijing",
           "authors": "T. Cioacă, B. Dumitrescu, M.S. Stupariu, I. Pătru-Stupariu, M. Năpăruş, I. Stoicescu, A. Peringer, A. Buttler, F. Golay",
           "year": 2014
         },
