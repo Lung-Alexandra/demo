@@ -1,245 +1,457 @@
 {
   "publications": [
     {
-      "title": "Graph-Based Wavelet Representation of Multi-Variate Terrain Data",
-      "subtitle": "Computer Graphics Forum",
-      "authors": "T. Cioaca, B. Dumitrescu, M.S. Stupariu",
-      "details": {
-        "link": "https://doi.org/10.1111/cgf.12670",
-        "year": 2015
-      }
+      "title": "Domeniul principal de interes",
+      "content": [
+        {
+          "title": "Discrete curvatures of triangle meshes: From approximation of smooth surfaces to digital terrain data",
+          "subtitle": "Computers & Geosciences, volume 153",
+          "authors": "M.S. Stupariu",
+          "year": 2021,
+          "page": "104789"
+        },
+        {
+          "title": "Graph-based wavelet multiresolution modeling of multivariate terrain data",
+          "subtitle": ", in Stanković L., Sejdić E. (eds) Vertex-Frequency Analysis of Graph Signals: Signals and Communication Technology, Springer",
+          "authors": "T. Cioacă, B. Dumitrescu, M.S. Stupariu",
+          "year": 2019,
+          "page": "479–507"
+        },
+        {
+          "title": "Lazy Wavelet Simplification using Scale-dependent Dense Geometric Variability Descriptors",
+          "subtitle": "Control Engineering and Applied Informatics, 19",
+          "authors": "T. Cioacă, B. Dumitrescu, M.S. Stupariu",
+          "year": 2017,
+          "page": "15–26"
+        },
+        {
+          "title": "Graph-based Wavelet Representation of Multidimensional Terrain Data",
+          "subtitle": "Computer Graphics Forum, 35 ",
+          "authors": "T. Cioacă, B. Dumitrescu, M.S. Stupariu",
+          "year": 2016,
+          "page": "44–58"
+        },
+        {
+          "title": "Combined quadric error metric and lifting scheme multivariate model simplification",
+          "subtitle": "University Politehnica of Bucharest Scientific Bulletin, Series C, 78 ",
+          "authors": "T. Cioacă, B. Dumitrescu, M.S. Stupariu",
+          "year": 2016,
+          "page": "51–62"
+        },
+        {
+          "title": "A quiver approach to studying orbit spaces of linear systems",
+          "subtitle": "System & Control Letters, 73",
+          "authors": "M.S. Stupariu",
+          "year": 2014,
+          "page": "1–5"
+        },
+        {
+          "title": "Filtrations, weights and quiver problems",
+          "subtitle": "Linear Algebra and Its Applications, 436",
+          "authors": "M.S. Stupariu",
+          "year": 2012,
+          "page": "648–658"
+        },
+        {
+          "title": "Representations of quivers and associated gauge-theoretical problems",
+          "subtitle": "Bull. of the Transilvania University of Braşov, series III, 1 (50)",
+          "authors": "M.S. Stupariu",
+          "year": 2008,
+          "page": "387 – 394"
+        },
+        {
+          "title": "Some properties of the (G, ρ)-monopoles",
+          "subtitle": "Bull. of the Transilvania University of Braşov, series B, 14 (49)",
+          "authors": "M.S. Stupariu",
+          "year": 2007,
+          "page": "315 – 323"
+        },
+        {
+          "title": "A compactness criterion for quotients associated to linear actions",
+          "subtitle": "Analele Universităţii din Bucureşti, Matematica, LVI",
+          "authors": "M.S. Stupariu",
+          "year": 2007,
+          "page": "221 – 230"
+        },
+        {
+          "title": "GIT-stability for a class of linear systems",
+          "subtitle": "Math. Reports, 9 (59)",
+          "authors": "M.S. Stupariu",
+          "year": 2007,
+          "volume": 4,
+          "page": "377 – 384"
+        },
+        {
+          "title": "Teaching Linear Algebra to students in Informatics",
+          "subtitle": "Proceedings CAIM 14, Romai Educational Journal 2",
+          "authors": "C. Voica, M.S. Stupariu",
+          "year": 2007,
+          "page": "74 – 77"
+        },
+        {
+          "title": "Un studiu privind învăţarea spaţiilor vectoriale (Teaching vector spaces)",
+          "subtitle": "Proceedings CAIM 13, Romai Educational Journal 1",
+          "authors": "C. Voica, M.S. Stupariu",
+          "year": 2006,
+          "page": "64 – 72"
+        },
+        {
+          "title": "Reprezentări mentale ale conceptelor de algebră liniară (Mental representations of basic linear algebra notions)",
+          "subtitle": "Bull. SSM, Proceedings of the RMS Conference",
+          "authors": "C. Voica, M.S. Stupariu",
+          "year": "mai 2006"
+        },
+        {
+          "title": "Rings of invariants for representations of quivers",
+          "subtitle": "Comptes Rendus de l’Académie Science Paris – Mathematique, 340",
+          "authors": "M. Halic, M.S. Stupariu",
+          "year": 2005,
+          "page": "135 – 140"
+        },
+        {
+          "title": "Stability in linear problems",
+          "subtitle": "Preprint MI-2003-22, University of Leiden",
+          "authors": "M.S. Stupariu",
+          "year": 2003
+        },
+        {
+          "title": "On the (G, ρ)-monopole equations",
+          "subtitle": "Revue Roumaine Math. Pures et Appliquées, 48",
+          "authors": "M.S. Stupariu",
+          "year": 2003,
+          "volume": 3,
+          "page": "311 – 326"
+        },
+        {
+          "title": "Quotients in algebraic and symplectic geometry",
+          "subtitle": "Anual Report 2002, Institute of Mathematics, University of Leiden",
+          "authors": "M.S. Stupariu",
+          "year": 2002,
+          "page": "5 – 12"
+        },
+        {
+          "title": "The Kobayashi-Hitchin correspondence for vortex-type equations coupled with Higgs fields (II)",
+          "subtitle": "Math. Reports, 4 (54)",
+          "authors": "M.S. Stupariu",
+          "year": 2002,
+          "volume": 1,
+          "page": "123 – 142"
+        },
+        {
+          "title": "The Kobayashi-Hitchin correspondence for vortex-type equations coupled with Higgs fields (I)",
+          "subtitle": "Math. Reports, 3 (53)",
+          "authors": "M.S. Stupariu",
+          "year": 2001,
+          "volume": 4,
+          "page": "425 – 444"
+        },
+        {
+          "title": "Dimensional reduction of monopole equations",
+          "subtitle": "Math. Reports, 3 (53)",
+          "authors": "M.S. Stupariu",
+          "year": 2001,
+          "page": "293 – 303"
+        },
+        {
+          "title": "Sur les courbes caractéristiques associées à l’algèbre de déformation des deux connexions linéaires",
+          "subtitle": "Studii şi cercetări matematice, 5-6 (49)",
+          "authors": "M.S. Stupariu",
+          "year": 1997,
+          "page": "423 – 427"
+        },
+        {
+          "title": "Champs m-spéciaux dans l’algèbre de déformation",
+          "subtitle": "An. Univ. Oradea, Fasc. Matem., V",
+          "authors": "I.E. Hirică, L. Nicolescu, M.S. Stupariu",
+          "year": "1995-1996",
+          "page": "119 – 134"
+        },
+        {
+          "title": "On conformally semisymmetric connections",
+          "subtitle": "An.Univ.Oradea, Fasc. Matem., V",
+          "authors": "I.E. Hirică, L. Nicolescu, M.S. Stupariu",
+          "year": "1995-1996",
+          "page": "135 – 149"
+        }
+      ]
     },
     {
-      "title": "A quiver approach to studying orbit spaces of linear systems",
-      "subtitle": "Systems and Control Letters, volume 73",
-      "authors": "M.S. Stupariu",
-      "details": {
-        "year": 2014,
-        "pages": "1-5"
-      }
+      "title": "Articole interdisciplinare",
+      "content": [
+        {
+          "title": "Machine learning in landscape ecological analyses: a review of recent approaches",
+          "subtitle": "Landscape Ecology, 37",
+          "authors": "M.S. Stupariu, S. Cushman, A. Pleşoianu, I. Pătru-Stupariu, Ch. Fürst",
+          "year": 2022,
+          "page": "1227–1250"
+        },
+        {
+          "title": "A method for tree detection based on similarity with geometric shapes of 3D geospatial data",
+          "subtitle": "ISPRS International Journal of Geo-Information, 9(5), 298",
+          "authors": "M.S. Stupariu, A. Pleşoianu, I. Pătru-Stupariu, Ch. Fürst",
+          "year": 2020
+        },
+        {
+          "title": "Individual treecrown detection and species classification in very high-resolution Remote Sensing imagery using a Deep Learning ensemble model",
+          "subtitle": "Remote Sensing, 12(15), 2426",
+          "authors": "A. Pleşoianu, M.S. Stupariu, I. Şandric, I. Pătru-Stupariu, L. Drăguţ",
+          "year": 2020
+        },
+        {
+          "title": "A Review of Changes in Mountain Land Use and Ecosystem Services: From Theory to Practice",
+          "subtitle": "Land, 9(9), 336",
+          "authors": "I. Pătru-Stupariu, C. Hossu, S. Grădinaru, A. Niţă, M.S. Stupariu, A. Huzui-Stoiculescu, A. Gavrilids",
+          "year": 2020
+        },
+        {
+          "title": "Shifts in wind energy potential following land-use driven vegetation dynamics in complex terrains",
+          "subtitle": "Science of The Total Environment, 639 ",
+          "authors": "J. Fang, A. Peringer, M.S. Stupariu, I. Pătru-Stupariu, A. Buttler, F. Golay, F. Porté-Agel",
+          "year": 2018,
+          "page": "374–384"
+        },
+        {
+          "title": "Do wind turbines impact plant community properties in mountain region?",
+          "subtitle": "Biologia 74",
+          "authors": "I. Pătru-Stupariu, A.M. Calotă, M. Santonja, P. Anastasiu, I. Stoicescu, A.I. Biriş, M.S. Stupariu, A. Buttler",
+          "year": 2019,
+          "page": "1613–1619"
+        },
+        {
+          "title": "Integrating geo-biodiversity features in the analysis of landscape patterns",
+          "subtitle": "Ecological Indicators, 80",
+          "authors": "I. Pătru-Stupariu, M.S. Stupariu, I. Stoicescu, A. Peringer, A. Buttler, Ch. Fürst",
+          "year": 2017,
+          "page": "363–375"
+        },
+        {
+          "title": "Multiscale wavelet-based analysis to detect hidden geodiversity",
+          "subtitle": "Progress in Physical Geography, 41",
+          "authors": "M. Năpăruş-Aljančič, I. Pătru-Stupariu, M.S. Stupariu",
+          "year": 2017,
+          "page": "601–619"
+        },
+        {
+          "title": "Disturbance-grazer-vegetation interactions maintain habitat diversity in mountain pasture-woodlands",
+          "subtitle": "Ecological Modelling, 359",
+          "authors": "A. Peringer, A. Buttler, F. Gillet, I. Pătru-Stupariu, K. Schulze, M.S. Stupariu, G. Rosenthal",
+          "year": 2017,
+          "page": "301–310"
+        },
+        {
+          "title": "Landscapes persistence and stakeholders’ perspective. The case of the Romanian Carpathians",
+          "subtitle": "Applied Geography, 69",
+          "authors": "I. Pătru-Stupariu, C.A. Tudor, M.S. Stupariu, A. Buttler, A. Peringer",
+          "year": 2016,
+          "page": "87–98"
+        },
+        {
+          "title": "Landscape-scale simulation experiments test Romanian and Swiss management guidelines for mountain pasture-woodland habitat diversity",
+          "subtitle": "Ecological Modelling 330",
+          "authors": "A. Peringer, F. Gillet, G. Rosenthal, I. Stoicescu I., I. Pătru-Stupariu, M.S. Stupariu, A. Buttler",
+          "year": 2016,
+          "page": "41–49"
+        },
+        {
+          "title": "Multi-scale feedbacks between tree regeneration traits and herbivore behaviour explain the structure of pasture-woodland mosaics",
+          "subtitle": "Landscape Ecology, 31",
+          "authors": "A. Peringer, K.A. Schulze, I. Pătru-Stupariu, M.S. Stupariu, G. Rosenthal, F. Gillet, A. Buttler",
+          "year": 2016,
+          "page": "913–927"
+        },
+        {
+          "title": "Heuristic-driven Graph Wavelet Modeling of Complex Terrain",
+          "subtitle": "Proceedings of SPIE, 9443",
+          "authors": "T. Cioacă, B. Dumitrescu, M.S. Stupariu, I. Pătru-Stupariu, M. Năpăruş, I. Stoicescu, A. Peringer, A. Buttler, F. Golay",
+          "year": 2015
+        },
+        {
+          "title": "Landscape fragmentation in Romania’s Southern Carpathians: testing a European assessment with local data",
+          "subtitle": "Landscape and Urban Planning, 143",
+          "authors": "I. Pătru-Stupariu, M.S. Stupariu, C.A. Tudor, S.R. Grădinaru, A. Gavrilidis, F. Kienast, A.M. Hersperger",
+          "year": 2015,
+          "page": "1–8"
+        },
+        {
+          "title": "The integration of historical maps in landscape reconstruction. Case study: Sinaia, Romania",
+          "subtitle": "Journal of Maps, v",
+          "authors": "I. Pătru-Stupariu, M.S. Stupariu, R. Cuculici, A Huzui",
+          "year": 2011,
+          "page": "206–220"
+        },
+        {
+          "title": "Geometric approaches to computing 3D-landscape metrics",
+          "subtitle": "Landscape Online, 24",
+          "authors": "M.S. Stupariu, I. Pătru-Stupariu, R. Cuculici",
+          "year": 2010,
+          "page": "1–12"
+        },
+        {
+          "title": "Metode şi tehnici în elaborarea algoritmului de evaluare peisagistică. Modelul Markov",
+          "subtitle": "în: Elaborarea şi implementarea unui algoritm de evaluare şi prognoză peisagistică",
+          "authors": "M.S. Stupariu, I. Pătru-Stupariu",
+          "page": " pp. 41–56. Editura Universităţii din Bucureşti",
+          "yearAfter": 2011
+        }
+      ]
     },
     {
-      "title": "Filtrations, weights and quiver problems",
-      "subtitle": "Linear Algebra and Its Applications, volume 436",
-      "authors": "M.S. Stupariu",
-      "details": {
-        "year": 2012,
-        "pages": "648-658"
-      }
-    },
-    {
-      "title": "The integration of historical maps in landscape reconstruction.",
-      "subtitle": "Case study: Sinaia, Romania Journal of Maps v 2011",
-      "authors": "I. Patru-Stupariu, M.S. Stupariu, R. Cuculici and A. Huzui",
-      "details": {
-        "year": 2011,
-        "pages": "206-220"
-      }
-    },
-    {
-      "title": "Contribution of global indicators to landscape change modeling. Case study: Prahova Valley (Romanian Carpathians and Subcarpathians)",
-      "subtitle": "International Journal of the Physical Sciences 6",
-      "authors": "I. Patru-Stupariu, M.S. Stupariu, R. Cuculici and A. Huzui",
-      "details": {
-        "year": 2011,
-        "pages": "534-539"
-      }
-    },
-    {
-      "title": "Modele matematice utilizate pentru evaluarea vizuala in situ a peisajului – studiu de caz orasul Sinaia",
-      "subtitle": "Forum Geografic, Studii si cercetari de geografie si protectia mediului 9",
-      "authors": "I. Patru-Stupariu, M.S. Stupariu and A. Huzui",
-      "details": {
-        "year": 2010,
-        "pages": "133-138"
-      }
-    },
-    {
-      "title": "Geometric approaches to computing 3D-landscape metrics",
-      "subtitle": "Landscape Online, 24",
-      "authors": "M.S. Stupariu, I. Patru-Stupariu and R.Cuculici",
-      "details": {
-        "year": 2010,
-        "pages": "1-12"
-      }
-    },
-    {
-      "title": "Geometric techniques in quantifying landscape irregularities, in J. Breuste, M. Kozova, M. Finka (Eds.): European Landscapes in Transformation Challenges for Landscape Ecology and Management",
-      "subtitle": "[European IALE Conference 2009, Salzburg, Austria, July, 12-16, 2009]",
-      "authors": "M.S. Stupariu, I. Patru-Stupariu and R.Cuculici",
-      "details": {
-        "year": 2009,
-        "pages": "12-16"
-      }
-    },
-    {
-      "title": "Landscape metrics for assessment of mountain landscape using GIS applications",
-      "subtitle": "Revista de Geomorfologie, 11",
-      "authors": "I. Patru-Stupariu, M.S. Stupariu and R. Cuculici",
-      "details": {
-        "year": 2009,
-        "pages": "59-62"
-      }
-    },
-    {
-      "title": "Representations of quivers and associated gauge-theoretical problems",
-      "subtitle": "Bulletin of the Transilvania University of Brasov, series III, vol. 1(50)",
-      "authors": "M.S. Stupariu",
-      "details": {
-        "year": 2008,
-        "pages": "387-394"
-      }
-    },
-    {
-      "title": "Some properties of the (G,ρ)-monopoles",
-      "subtitle": "Bulletin of the Transilvania University of Brasov, series B, vol. 14(49)",
-      "authors": "M.S. Stupariu",
-      "details": {
-        "year": 2007,
-        "pages": "315-323"
-      }
-    },
-    {
-      "title": "A compactness criterion for quotients associated to linear actions",
-      "subtitle": "Analele Universitatii din Bucuresti, Matematica, LVI",
-      "authors": "M.S. Stupariu",
-      "details": {
-        "year": 2007,
-        "pages": "221-230"
-      }
-    },
-    {
-      "title": "GIT-stability for a class of linear systems",
-      "subtitle": "Math. Reports, vol. 9(59)",
-      "authors": "M.S. Stupariu",
-      "details": {
-        "year": 2007,
-        "pages": "377-384"
-      }
-    },
-    {
-      "title": "Modele matematice utilizate pentru evaluarea in teren a peisajului(Mathematical models in terrain landscape assessment)",
-      "subtitle": "Comunicari de Geografie, XI",
-      "authors": "I. Patru-Stupariu and M.S. Stupariu",
-      "details": {
-        "year": 2007,
-        "pages": "517-519"
-      }
-    },
-    {
-      "title": "Teaching Linear Algebra to students in Informatics",
-      "subtitle": "Proceedings CAIM 14, Romai Educational Journal 2",
-      "authors": "C. Voica and M.S. Stupariu",
-      "details": {
-        "year": 2007,
-        "pages": "74-77"
-      }
-    },
-    {
-      "title": "Reprezentari mentale ale conceptelor de algebra liniara (Mental representations of basic linear algebra notions)",
-      "subtitle": "Bulletin SSM, Proceedings of the RMS Conference",
-      "authors": "C. Voica and M.S. Stupariu",
-      "details": {
-        "year": "mai 2006"
-      }
-    },
-    {
-      "title": "Un studiu privind invatarea spatiilor vectoriale (Teaching vector spaces)",
-      "subtitle": "Proceedings CAIM 13, Romai Educational Journal 1",
-      "authors": "C. Voica and M.S. Stupariu",
-      "details": {
-        "year": 2006,
-        "pages": "64-72"
-      }
-    },
-    {
-      "title": "Rings of invariants for representations of quivers",
-      "subtitle": "C.R.Acad.Sci.Paris, Ser.I 340",
-      "authors": "M. Halic and M.S. Stupariu",
-      "details": {
-        "year": 2005,
-        "pages": "135-140"
-      }
-    },
-    {
-      "title": "Stability in linear problems",
-      "subtitle": "Preprint MI-2003-22, University of Leiden",
-      "authors": "M.S. Stupariu",
-      "details": {
-        "year": 2003
-      }
-    },
-    {
-      "title": "On the (G,ρ)-monopole equations",
-      "subtitle": "Revue Roumaine Math. Pures et Appliquees, 48",
-      "authors": "M.S. Stupariu",
-      "details": {
-        "year": 2003,
-        "pages": "311-326"
-      }
-    },
-    {
-      "title": "Quotients in algebraic and symplectic geometry",
-      "subtitle": "Anual Report 2002, Institute of Mathematics, University of Leiden",
-      "authors": "M.S. Stupariu",
-      "details": {
-        "year": 2002,
-        "pages": "5-12"
-      }
-    },
-    {
-      "title": "The Kobayashi-Hitchin correspondence for vortex-type equations coupled with Higgs fields (II)",
-      "subtitle": "Math. Reports, 4 (54)",
-      "authors": "M.S. Stupariu",
-      "details": {
-        "year": 2002,
-        "pages": "123-142"
-      }
-    },
-    {
-      "title": "The Kobayashi-Hitchin correspondence for vortex-type equations coupled with Higgs fields (I)",
-      "subtitle": "Math. Reports, 3 (53)",
-      "authors": "M.S. Stupariu",
-      "details": {
-        "year": 2001,
-        "pages": "425-444"
-      }
-    },
-    {
-      "title": "Dimensional reduction of monopole equations",
-      "subtitle": "Math. Reports, 3 (53)",
-      "authors": "M.S. Stupariu",
-      "details": {
-        "year": 2001,
-        "pages": "293-303"
-      }
-    },
-    {
-      "title": "Sur les courbes caracteristiques associees a l'algebre de deformation des deux connexions lineaires",
-      "subtitle": "Studii si cercetari matematice, 5-6 (49)",
-      "authors": "M.S. Stupariu",
-      "details": {
-        "year": 1997,
-        "pages": "423-427"
-      }
-    },
-    {
-      "title": "On conformally semisymmetric connections",
-      "subtitle": "An.Univ.Oradea, Fasc. Matem., V",
-      "authors": "L. Nicolescu, I.E. Hirica and M.S. Stupariu",
-      "details": {
-        "year": "1995-1996",
-        "pages": "135-149"
-      }
-    },
-    {
-      "title": "Champs m-speciaux dans l'algebre de deformation",
-      "subtitle": "An.Univ.Oradea, Fasc. Matem., V",
-      "authors": "L. Nicolescu, I.E. Hirica and M.S. Stupariu",
-      "details": {
-        "year": "1995-1996",
-        "pages": "119-134"
-      }
+      "title": "Prezentări la conferinţe",
+      "content": [
+        {
+          "title": "Differentiating between 2D and 3D landscape metrics: the role of surface variability",
+          "place": "IALE 2019 World Congress, Milano",
+          "authors": "M.S. Stupariu, Ch. Fürst, I. Pătru-Stupariu"
+        },
+        {
+          "title": "3D printing of landscapes: from technical advances to expectations of end-users",
+          "place": "IALE 2019 World Congress, Milano",
+          "authors": "M.S. Stupariu, A. Dumitriu, I. Pătru-Stupariu, Ch. Fürst"
+        },
+        {
+          "title": "Riemannian Filters for Multi-variate Mesh Signals",
+          "place": "International Conference on Computer Graphics Theory and Applications GRAPP 2017",
+          "authors": "T. Cioacă, B. Dumitrescu, M.S. Stupariu",
+          "year": 2017
+        },
+        {
+          "title": "3D Landscape Metrics: what and how can be computed?",
+          "place": "IALE 2017, European Landscape Ecology Congress, Gent",
+          "authors": "M.S. Stupariu, I. Pătru-Stupariu, C. Timofte"
+        },
+        {
+          "title": "3D landscape pattern analysis using wavelets based techniques",
+          "place": "IALE 2017, European Landscape Ecology Congress, Gent",
+          "authors": "M.S. Stupariu, A. Pleşoianu, I. Pătru-Stupariu",
+          "year": 2017
+        },
+        {
+          "title": "Wavelets-based techniques and GIS tools for identifying fine scale landscape patterns",
+          "place": "ESRI International User Conference, San Diego, California, 2016",
+          "authors": "A.I. Pleşoianu, M.S. Stupariu, I. Stoicescu, I. Pătru-Stupariu",
+          "year": 2016
+        },
+        {
+          "title": "An Application of Triangle Mesh Models in Detecting Patterns of Vegetation Paper",
+          "place": "International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision WSCG, Pilsen",
+          "authors": "M.S. Stupariu",
+          "year": 2016
+        },
+        {
+          "title": "Discrete curvatures for triangle meshes derived from terrain point cloud data",
+          "place": "Symposium on Geometry Processing SGP, Graz",
+          "authors": "M.S. Stupariu, I. Pătru-Stupariu",
+          "year": 2015
+        },
+        {
+          "title": "A local geometry based algorithm for point cloud edge classification",
+          "place": "European Workshop on Computational Geometry, EuroCG, Ljubljana",
+          "authors": "M.S. Stupariu",
+          "year": 2015
+        },
+        {
+          "title": "Heuristic-driven Graph Wavelet Modeling of Complex Terrain",
+          "place": "International Conference on Graphic and Image Processing Beijing 2014",
+          "authors": "T. Cioacă, B. Dumitrescu, M.S. Stupariu, I. Pătru-Stupariu, M. Năpăruş, I. Stoicescu, A. Peringer, A. Buttler, F. Golay",
+          "year": 2014
+        },
+        {
+          "title": "On the Use of Discrete Curvatures in Terrain Modeling",
+          "place": "8th International Conference Curves and Surfaces, Paris",
+          "authors": "M.S. Stupariu",
+          "year": 2014
+        },
+        {
+          "title": "Multi-resolution analysis as a tool for integrating wind and vegetation modeling over complex terrains",
+          "place": "AGILE (Association of Geographic Information Laboratories for Europe) Conference, Leuven",
+          "authors": "F. Golay, F. Porté-Agel, A. Buttler, M.S. Stupariu, M. Năpăruş, I. Pătru-Stupariu, A. Peringer",
+          "year": 2013
+        },
+        {
+          "title": "On the use of discrete-geometry differential operators in the study of landscapes",
+          "place": "GEOBIA (Geographic Object Based Image Analysis), Gent",
+          "authors": "I. Pătru-Stupariu, M.S. Stupariu, R. Cuculici",
+          "year": 2010
+        },
+        {
+          "title": "Geometric techniques in quantifying landscape irregularities",
+          "place": "European IALE Conference, Salzburg",
+          "authors": "I. Pătru-Stupariu, M.S. Stupariu, R. Cuculici",
+          "year": 2009
+        },
+        {
+          "title": "Representations of quivers and associated gauge-theoretical problems",
+          "place": "Riemannian Geometry and Applications, Dedicated to the 65-th birthday of Prof. Dr. Bang-Yen Chen, Braşov",
+          "authors": "M.S. Stupariu",
+          "year": 2008
+        },
+        {
+          "title": "Concepte de stabilitate pentru reprezentări de tolbe",
+          "place": "Euler anniversary session, Faculty of Mathematics, University of Bucharest",
+          "authors": "M.S. Stupariu",
+          "year": 2007
+        },
+        {
+          "title": "Utilizarea limbajului informatic în predarea algebrei liniare şi a geometriei",
+          "place": "Workshop on Romanian university education, Constanţa",
+          "authors": "M.S. Stupariu",
+          "year": 2007
+        },
+        {
+          "title": "Some properties of the (G, ρ)-monopoles",
+          "place": "Riemannian Geometry and Applications, Dedicated to the Memory of Prof. Radu Roşca, Braşov",
+          "authors": "M.S. Stupariu",
+          "year": 2007
+        },
+        {
+          "title": "Reprezentări şi limbaje în algebra liniară",
+          "place": "RMS (Romanian Mathematical Society) Conference, Bucharest",
+          "authors": "C. Voica, M.S. Stupariu",
+          "year": 2007
+        },
+        {
+          "title": "Difficulties in understanding vector spaces",
+          "place": "MASSEE International Congress on Mathematics, Paphos, Cyprus",
+          "authors": "C. Voica, M.S. Stupariu",
+          "year": 2006
+        },
+        {
+          "title": "Reprezentări mentale ale conceptelor de algebră liniară",
+          "place": "RMS (Romanian Mathematical Society) Conference, Bucharest",
+          "authors": "C. Voica, M.S. Stupariu",
+          "year": 2006
+        },
+        {
+          "title": "Modele matematice utilizate pentru evaluarea în teren a peisajului",
+          "place": "Annual workshop of the Faculty of Geography, University of Bucharest",
+          "authors": "I. Pătru-Stupariu, M.S. Stupariu",
+          "year": 2006
+        },
+        {
+          "title": "Teaching vector spaces",
+          "place": "The 13th Conference on Applied and Industrial Mathematics CAIM, Piteşti",
+          "authors": "C. Voica, M.S. Stupariu",
+          "year": 2005
+        },
+        {
+          "title": "Vortex-type equations coupled with Higgs fields",
+          "place": "Zweites deutsch-rumänisches Seminar über Geometrie, Dortmund",
+          "authors": "M.S. Stupariu",
+          "year": 2000
+        },
+        {
+          "title": "Stable augmented bundles over Kähler manifolds",
+          "place": "Centennial Gh. Vrănceanu, Bucharest",
+          "authors": "M.S. Stupariu",
+          "year": 2000
+        },
+        {
+          "title": "The Kobayashi-Hitchin correspondence for projective vortex-type equations coupled with Higgs fields",
+          "place": "The fourth international Workshop on differential geometry and its applications, Braşov",
+          "authors": "M.S. Stupariu",
+          "year": 1999
+        }
+      ]
     }
   ]
 }

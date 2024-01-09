@@ -1,25 +1,27 @@
-$.getJSON('publications.json', function(jsonData) {
-    // Iterate through the publications and generate pub
-    $.each(jsonData.publications, function(index, publication) {
-        var pub = '<div class="publication">';
-        pub += '<div class="number">' + (index + 1).toString().padStart(2, '0') + '</div>';
-        pub += '<div class="title bold">' + publication.title + '</div>';
-        pub += '<div class="subtitle">' + (publication.subtitle || publication.volume) + '</div>';
-        pub += '<div class="authors">' + publication.authors + '</div>';
-        pub += '<div class="details">';
-        pub += '<div class="links">';
-        if (publication.details.link) {
-            pub+='<a href="' + publication.details.link + '" class = "link">'+publication.details.link+'</a>';
-        } else if (publication.details.pages) {
-            pub += 'Pages: ' + publication.details.pages;
-        }
-        pub +='</div>'
-        pub += '<div class="an">' + publication.details.year + '</div>';
-        pub += '</div>';
-        pub += '</div>';
+$.getJSON('publications.json', function (jsonData) {
+    $.each(jsonData.sections, function (index, sec) {
+        var section = '<div class="page-section"><div class="page-section-title">' + sec.title + '</div>' +
+            '<div class="line"></div>' +
+            '<div class="geometric-box"></div></div>'
+        $('.content').append(section);
+        $.each(sec.content, function (index, publication) {
+            var pub = '<div class="publication">';
+            pub += '<p class="information"><span>' + (index + 1).toString().padStart(2, '0') + '.</span> ';
+            pub += [
+                publication.authors,
+                '<span class="italic">' + publication.title + '</span>',
+                publication.subtitle,
+                publication.year,
+                publication.volume,
+                publication.page ? '<span class="nowraptext">' + publication.page + '</span>' : '', // Verificare pentru pagini
+                publication.yearAfter,
+                publication.place
+            ].filter(Boolean).join(", ");
+            pub += '</div>'
 
-        // Append the generated pub to the body
-        $('.content').append(pub);
+            // Append the generated pub to the body
+            $('.content').append(pub);
+        });
+
     });
-
 });
