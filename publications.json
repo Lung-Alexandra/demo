@@ -311,13 +311,13 @@
         {
           "title": "Riemannian Filters for Multi-variate Mesh Signals",
           "place": "International Conference on Computer Graphics Theory and Applications GRAPP 2017",
-          "authors": "T. Cioacă, B. Dumitrescu, M.S. Stupariu",
-          "year": 2017
+          "authors": "T. Cioacă, B. Dumitrescu, M.S. Stupariu"
         },
         {
           "title": "3D Landscape Metrics: what and how can be computed?",
           "place": "IALE 2017, European Landscape Ecology Congress, Gent",
-          "authors": "M.S. Stupariu, I. Pătru-Stupariu, C. Timofte"
+          "authors": "M.S. Stupariu, I. Pătru-Stupariu, C. Timofte",
+          "year": 2017
         },
         {
           "title": "3D landscape pattern analysis using wavelets based techniques",
@@ -328,8 +328,7 @@
         {
           "title": "Wavelets-based techniques and GIS tools for identifying fine scale landscape patterns",
           "place": "ESRI International User Conference, San Diego, California, 2016",
-          "authors": "A.I. Pleşoianu, M.S. Stupariu, I. Stoicescu, I. Pătru-Stupariu",
-          "year": 2016
+          "authors": "A.I. Pleşoianu, M.S. Stupariu, I. Stoicescu, I. Pătru-Stupariu"
         },
         {
           "title": "An Application of Triangle Mesh Models in Detecting Patterns of Vegetation Paper",
@@ -351,9 +350,8 @@
         },
         {
           "title": "Heuristic-driven Graph Wavelet Modeling of Complex Terrain",
-          "place": "International Conference on Graphic and Image Processing Beijing",
-          "authors": "T. Cioacă, B. Dumitrescu, M.S. Stupariu, I. Pătru-Stupariu, M. Năpăruş, I. Stoicescu, A. Peringer, A. Buttler, F. Golay",
-          "year": 2014
+          "place": "International Conference on Graphic and Image Processing Beijing 2014",
+          "authors": "T. Cioacă, B. Dumitrescu, M.S. Stupariu, I. Pătru-Stupariu, M. Năpăruş, I. Stoicescu, A. Peringer, A. Buttler, F. Golay"
         },
         {
           "title": "On the Use of Discrete Curvatures in Terrain Modeling",
