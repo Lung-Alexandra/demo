@@ -10,7 +10,7 @@ $.getJSON('cv.json', function (jsonData) {
         let nrPhrases = 0;
         $.each(content, function (index, item) {
             if (item.hasOwnProperty("label")) {
-                sectionHTML += '<p><span class="bold">' + item.label + ':</span> ' + item.value + '</p>';
+                sectionHTML += '<p>' + item.label + ": " + item.value + '</p>';
             } else if (item.hasOwnProperty("year")) {
                 sectionHTML += '<div class="job">' +
                     '<div class="year">' + item.year + '</div>' +
