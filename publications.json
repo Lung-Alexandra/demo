@@ -373,6 +373,7 @@
         },
         {
           "title": "Geometric techniques in quantifying landscape irregularities",
+          "subtitle" :"in J. Breuste, M. Kozova, M. Finka (Eds.): European Landscapes in Transformation Challenges for Landscape Ecology and Management" 
           "place": "European IALE Conference, Salzburg",
           "authors": "I. Pătru-Stupariu, M.S. Stupariu, R. Cuculici",
           "year": 2009
@@ -384,13 +385,13 @@
           "year": 2008
         },
         {
-          "title": "Concepte de stabilitate pentru reprezentări de tolbe",
+          "title": "Concepte de stabilitate pentru reprezentări de tolbe(Stability concepts for representations of quivers)",
           "place": "Euler anniversary session, Faculty of Mathematics, University of Bucharest",
           "authors": "M.S. Stupariu",
           "year": 2007
         },
         {
-          "title": "Utilizarea limbajului informatic în predarea algebrei liniare şi a geometriei",
+          "title": "Utilizarea limbajului informatic în predarea algebrei liniare şi a geometriei (Using informatics in linear algebra and geometry teaching)",
           "place": "Workshop on Romanian university education, Constanţa",
           "authors": "M.S. Stupariu",
           "year": 2007
@@ -402,7 +403,7 @@
           "year": 2007
         },
         {
-          "title": "Reprezentări şi limbaje în algebra liniară",
+          "title": "Reprezentări şi limbaje în algebra liniară (Representations and languages in linear algebra) ",
           "place": "RMS (Romanian Mathematical Society) Conference, Bucharest",
           "authors": "C. Voica, M.S. Stupariu",
           "year": 2007
@@ -414,13 +415,13 @@
           "year": 2006
         },
         {
-          "title": "Reprezentări mentale ale conceptelor de algebră liniară",
+          "title": "Reprezentări mentale ale conceptelor de algebră liniară (Mental representations of basic linear algebra notions)",
           "place": "RMS (Romanian Mathematical Society) Conference, Bucharest",
           "authors": "C. Voica, M.S. Stupariu",
           "year": 2006
         },
         {
-          "title": "Modele matematice utilizate pentru evaluarea în teren a peisajului",
+          "title": "Modele matematice utilizate pentru evaluarea în teren a peisajului (Mathematical models in terrain landscape assessment)",
           "place": "Annual workshop of the Faculty of Geography, University of Bucharest",
           "authors": "I. Pătru-Stupariu, M.S. Stupariu",
           "year": 2006
