@@ -57,7 +57,7 @@
     height: auto;
     align-self: center;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px 5px var(--shadow-color);
+    box-shadow: 5px 5px 5px 5px var(--shadow);
 }
 
 

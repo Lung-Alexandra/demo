@@ -7,7 +7,7 @@
     <title>Title</title>
 
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2023.1.117/styles/kendo.default-v2.min.css"/>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -19,67 +19,41 @@
     <link rel="stylesheet" href="css/index.css">
 
     <script src="js/base.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/teaching.js"></script>
 
 </head>
 
 <body>
 <nav></nav>
 <div class="content">
+    <div class="page-section">
+        <div class="page-section-title"> Arhiva cursuri</div>
+        <div class="line"></div>
+        <div class="geometric-box"></div>
+        <div class="page-section-content">
 
+            <div class="archive">
+                <a href="./pdf/eich.pdf">Introducere in teoria gauge matematica (Univ. Zurich)</a>
+                <i id="eich_toggle" class='bx bx-chevron-down'></i>
+            </div>
 
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
-    Some teaching here
-    <br>
+            <embed id="eich_pdf" src="./pdf/eich.pdf" type="application/pdf">
 
+            <div class="archive">
+                <a href="./pdf/faserbuendel.pdf">Geometria spatiilor fibrate (Univ. Zurich)</a>
+                <i id="faserbuendel_toggle" class='bx bx-chevron-down'></i>
+            </div>
+            <embed id="faserbuendel_pdf" src="./pdf/faserbuendel.pdf" type="application/pdf">
+
+            <div class="archive">
+                <a href="./pdf/alg_topo.pdf">Topologie algebrica (Univ. Zurich)</a>
+                <i id="alg_topo_toggle" class='bx bx-chevron-down'></i>
+            </div>
+
+            <embed id="alg_topo_pdf" src="./pdf/alg_topo.pdf" type="application/pdf">
+
+        </div>
+    </div>
 </div>
 
 </body>
