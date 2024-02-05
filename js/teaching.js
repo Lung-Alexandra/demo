@@ -1,4 +1,4 @@
-$(document).ready(function () {
+function loadPDF() {
     $("[id$='_toggle']").click(function () {
         var baseId = $(this).attr('id').replace('_toggle', ''); // Ia partea comună a ID-ului
         $("#" + baseId + "_pdf").toggle();
@@ -10,5 +10,7 @@ $(document).ready(function () {
             $(this).removeClass("bx-chevron-up").addClass("bx-chevron-down");
         }
     });
-});
+}
+
+export {loadPDF}
 

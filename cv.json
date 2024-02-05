@@ -113,7 +113,10 @@
       "title": "Research projects",
       "content": [
         {
-          "phrase": "Research team member of the projects:"
+          "phrase": "Research team member of the projects:",
+          "style": {
+            "align-self": "normal"
+          }
         },
         {
           "title": "Improved wind energy assessment based on coupled wind, terrain and vegetation modeling",
@@ -151,9 +154,7 @@
           "team": "IHP Research Network"
         }
       ],
-      "style": {
-        "alignItems": "initial"
-      }
+      "style": {}
     },
     {
       "title": "Organizational activities",

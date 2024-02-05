@@ -9,23 +9,12 @@
 }
 
 
-.page-section .page-section-row-content, .page-section .page-section-column-content {
+.page-section .page-section-content{
     width: 90%;
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-.page-section .page-section-row-content {
     flex-direction: row;
-    align-items: center;
-
-}
-.page-section .page-section-column-content{
-    flex-direction: column;
 }
 
-.page-section .page-section-row-content .section-text {
+.page-section .page-section-content .section-text {
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -34,20 +23,20 @@
     flex: 1;
 }
 
-.page-section-row-content .section-text p,
-.page-section-row-content .section-text p span,
-.page-section-row-content .section-text p a {
+.page-section-content .section-text p,
+.page-section-content .section-text p span,
+.page-section-content .section-text p a {
     padding: 5px;
     font-size: var(--font-size-medium);
 
 }
 
-.page-section-row-content .section-text p a {
+.page-section-content .section-text p a {
     text-decoration: none;
 
 }
 
-.page-section-row-content .image {
+.page-section-content .image {
     width: 40%;
     height: 100%;
     display: flex;
@@ -56,7 +45,7 @@
 
 }
 
-.page-section-row-content .image img {
+.page-section-content .image img {
     max-width: 300px;
     width: 100%;
     min-height: 400px;
@@ -67,36 +56,30 @@
 }
 
 
-
-
 @media screen and (max-width: 600px) {
 
-    .page-section .page-section-row-content {
+    .page-section .page-section-content {
         height: auto;
         flex-direction: column;
-
     }
 
-    .page-section .page-section-row-content .section-text {
+    .page-section .page-section-content .row.section-text {
         width: 100%;
         height: fit-content;
         order: 2;
         margin: 7%;
-
     }
 
-    .page-section-row-content .image {
+    .page-section-content .row.image {
         align-self: center;
-
         width: 100%;
         order: 1;
     }
 
-    .page-section-row-content .image img {
+    .page-section-content .row.image img {
         margin-top: 10px;
         width: 100%;
         min-height: 200px;
-
     }
 
 }
