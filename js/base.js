@@ -18,6 +18,6 @@ if (currentPage.includes('publications')) {
     addPublicationData();
 }
 
-if (currentPage.includes('teaching')) {
+if (currentPage.includes('teaching') || currentPage.includes('fascicule')) {
     loadPDF();
 }
