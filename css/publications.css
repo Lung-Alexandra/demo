@@ -9,12 +9,14 @@
     width: 90%;
     font-size: var(--font-size-medium);
 }
+
 .information{
     color: var(--text-color-slidebar);
     font-weight: 200;
     font-size: var(--font-size-medium);
     margin: 1%;
 }
+
 .publication span{
     margin: 0;
     padding: 0;

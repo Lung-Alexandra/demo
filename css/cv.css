@@ -25,6 +25,7 @@
 .page-section-content p{
     font-size: var(--font-size-big);
 }
+
 .project{
     width: 90%;
     position: relative;
