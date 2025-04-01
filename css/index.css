@@ -47,8 +47,9 @@
 
 .page-section-content .image img {
     max-width: 300px;
-    width: 100%;
-    min-height: 400px;
+    width: 25%;
+    height: 25%;
+    /*min-height: 400px;*/
     height: auto;
     align-self: center;
     border-radius: 20px;

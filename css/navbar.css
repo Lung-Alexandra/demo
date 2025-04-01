@@ -180,7 +180,7 @@
     position: relative;
     justify-self: flex-end;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     bottom: 0;
     margin: 0;
     flex: 1;
@@ -190,8 +190,8 @@
     display: none;
 }
 
-
-.sidebar .bottom-content .mode {
+.sidebar .bottom-content .mode,
+.sidebar .bottom-content .lang {
     position: relative;
     border-radius: 0 6px 6px 0;
     background: var(--primary-color-light);
@@ -257,7 +257,13 @@
     transition: var(--tran-04);
 }
 
-.sidebar.dark .switch::before {
+/* Dark mode toggle position */
+.sidebar.dark .mode .toggle-switch .switch::before {
+    left: 20px;
+}
+
+/* Language toggle position */
+.lang .toggle-switch.ro .switch::before {
     left: 20px;
 }
 

@@ -1,8 +1,22 @@
 {
   "sections": [
     {
-      "title": "Domeniul principal de interes",
+      "title": "Articole și capitole de carte - domeniul principal de interes",
       "content": [
+        {
+          "title": "Large Multimodal Models for Low-Resource Languages: A Survey",
+          "subtitle": "https://arxiv.org/abs/2502.05568",
+          "authors": "M. Lupaşcu, A.C. Rogoz, M.S. Stupariu, R.T. Ionescu",
+          "year": 2025,
+          "page": "1-9"
+        },
+        {
+          "title": "Neural Contrast: Leveraging Generative Editing for Graphic Design Recommendations",
+          "subtitle": "https://arxiv.org/abs/2410.07211",
+          "authors": "M. Lupaşcu, I. Mironică, M.S. Stupariu",
+          "year": 2024,
+          "page": "1-14"
+        },
         {
           "title": "Discrete curvatures of triangle meshes: From approximation of smooth surfaces to digital terrain data",
           "subtitle": "Computers & Geosciences, volume 153",
@@ -178,6 +192,13 @@
     {
       "title": "Articole interdisciplinare",
       "content": [
+        {
+          "title": "Computing changes in regular square grids: towards integration of pixel and edge level analyses",
+          "subtitle": "Earth Science Informatics, 17",
+          "authors": "M.S. Stupariu",
+          "year": 2024,
+          "page": "1699–1712"
+        },
         {
           "title": "Machine learning in landscape ecological analyses: a review of recent approaches",
           "subtitle": "Landscape Ecology, 37",

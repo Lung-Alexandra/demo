@@ -1,123 +1,112 @@
 {
   "sections": [
     {
-      "title": "Personal information",
+      "title": "Informații personale",
       "content": [
         {
-          "label": "Surname",
-          "value": "Stupariu"
+          "label": "Nume",
+          "value": "Stupariu Mihai-Sorin"
         },
         {
-          "label": "Christian names",
-          "value": "Mihai-Sorin"
+          "label": "Titlu academic",
+          "value": "Prof. dr. habil."
         },
         {
-          "label": "Academic degree",
-          "value": "Ph.D."
-        },
-        {
-          "label": "Date of birth",
-          "value": "25.11.1968."
-        },
-        {
-          "label": "Place of birth",
-          "value": "Sibiu, Romania"
-        },
-        {
-          "label": "Citizenship",
-          "value": "Romanian"
-        },
-        {
-          "label": "Civil status",
-          "value": "married, one child"
+          "label": "Data și locul nasterii",
+          "value": "25.11.1968, Sibiu"
         }
       ],
       "style": {}
     },
     {
-      "title": "University and graduate studies",
+      "title": "Studii universitare",
       "content": [
         {
-          "year": "1988-1993",
-          "where": "Faculty of Mathematics, Bucharest University"
+          "year": "2022",
+          "where": "Abilitare in Informatica, Universitatea din Bucuresti",
+          "thesisTitle3": "3D triangle mesh representations: approaches, algorithms and applications"
         },
         {
-          "year": "1993",
-          "where": "Master Degree (Diploma) in Mathematics, Bucharest University",
-          "thesisTitle": "The Evolution of the Views on the Solar System",
-          "advisors": "Prof. K.Teleman"
-        },
-        {
-          "year": "1996-1998",
-          "where": "Ph.D.-student, with a position as assistant at the Institute of Mathematics of Zürich University"
-        },
-        {
-          "year": "June 1998",
-          "where": "Ph. D., Zürich University",
-          "thesisTitle": "The Kobayashi-Hitchin Correspondence for Vortex-Type Equations Coupled with Higgs Fields",
+          "year": "iunie 1998",
+          "where": "Dr. math., Universitatea din Zürich ",
+          "thesisTitle2": "The Kobayashi-Hitchin Correspondence for Vortex-Type Equations Coupled with Higgs Fields",
           "advisors": [
             "Prof. Ch. Okonek",
             "Prof. A. Teleman"
           ]
+        },
+        {
+          "year": "1996-1998",
+          "where": "Doctorand la Institutul de Matematică, Universitatea din Zürich"
+        },
+        {
+          "year": "1993",
+          "where": "Diploma in matematica, Facultatea de Matematica, Universitatea din Bucuresti",
+          "thesisTitle": "Evolutia conceptiilor despre Sistemul Solar",
+          "advisors": "Prof. K.Teleman"
+        },
+        {
+          "year": "1988-1993",
+          "where": "Facultatea de Matematica, Universitatea din Bucuresti"
         }
+
       ],
       "style": {}
     },
     {
-      "title": "Academic positions",
+      "title": "Activitate didactica si pozitii academice",
       "content": [
         {
-          "year": "1993-1996",
-          "where": "Subassistant, Faculty of Mathematics, University of Bucharest"
+          "year": "Din Feb. 2023",
+          "where": "Profesor, Facultatea de Matematica si Informatica, Universitatea din Bucuresti"
         },
         {
-          "year": "1996-1999",
-          "where": "Assistant, Institute of Mathematics, University of Zürich"
+          "year": "Oct. 2016 -  Feb. 2023",
+          "where": "Conferentiar, Facultatea de Matematica si Informatica, Universitatea din Bucuresti"
         },
         {
-          "year": "1999-March 2001",
-          "where": "Assistant, Faculty of Mathematics, University of Bucharest"
+          "year": "Oct. 2005 - Sept. 2016",
+          "where": "Lector, Facultatea de Matematica si Informatica, Universitatea din Bucuresti"
         },
         {
-          "year": "April-June 2001",
-          "where": "EAGER postdoctoral fellowship, University of Zürich"
-        },
-        {
-          "year": "July 2001-June 2002",
-          "where": "Postdoctoral assistant, University of Zürich"
-        },
-        {
-          "year": "July 2002-June 2003",
-          "where": "Postdoctoral assistant, University of Leiden"
+          "year": "Oct. 2004 - Sept. 2005",
+          "where": "Asistent, Facultatea de Matematica si Informatica, Universitatea din Bucuresti"
         },
         {
           "year": "Oct. 2003 - Sept. 2004",
-          "where": "Postdoctoral assistant, University of Zürich"
+          "where": "Asistent postdoctoral, Universitatea din Zürich"
         },
         {
-          "year": "Oct. 2004-Sept. 2005",
-          "where": "Assistant, Faculty of Mathematics, University of Bucharest"
+          "year": "Iulie 2002 - Iunie 2003",
+          "where": "Asistent postdoctoral, Universitatea din Leiden"
         },
         {
-          "year": "Oct. 2005-Sept. 2016",
-          "where": "Lecturer (Assistant professor), University of Bucharest"
+          "year": "Iulie 2001 - Iunie 2002",
+          "where": "Asistent postdoctoral, Universitatea din Zürich"
         },
         {
-          "year": "Since Oct. 2016",
-          "where": "Associate professor, University of Bucharest"
+          "year": "April-June 2001",
+          "where": "Bursa post-doctorala EAGER, Universitatea din Zürich"
+        },
+        {
+          "year": "1999-Martie 2001",
+          "where": "Asistent, Facultatea de Matematica, Universitatea din Bucuresti"
+        },
+        {
+          "year": "1996-1999",
+          "where": "Asistent, Institutul de Matematica, Universitatea din Zürich"
+        },
+        {
+          "year": "1993-1996",
+          "where": "Preparator, Facultatea de Matematica, Universitatea din Bucuresti"
         }
       ],
       "style": {}
     },
     {
-      "title": "Research projects",
+      "title": "Proiecte de cercetare",
       "content": [
-        {
-          "phrase": "Research team member of the projects:",
-          "style": {
-            "align-self": "normal"
-          }
-        },
+      
         {
           "title": "Improved wind energy assessment based on coupled wind, terrain and vegetation modeling",
           "link": "https://landscape.cc.unibuc.ro/projects/windland/",
@@ -127,8 +116,14 @@
           ]
         },
         {
+          "phrase": "Membru al echipei:",
+          "style": {
+            "align-self": "normal"
+          }
+        },
+        {
           "title": "Development and implementation of an algorithm for landscape assessment and prognosis. Application to the mountainous and subcarpathian sector of the Prahova Valley",
-          "link": "https://fmi.unibuc.ro/geomatica/",
+          "link": "http://old.fmi.unibuc.ro/geomatica/",
           "team": " CNCSIS. Project manager: Prof. I. Patru-Stupariu."
         },
         {
@@ -157,10 +152,15 @@
       "style": {}
     },
     {
-      "title": "Organizational activities",
+      "title": "Activitati organizatorice",
       "content": [
-        {
-          "activity": "Editorial Secretary of ",
+          {
+            "activity": "Prodecan (2016-2020)",
+            "linkwords": "Facultatea de Matematica și Informatică",
+             "link": "https://fmi.unibuc.ro"
+          },
+          {
+          "activity": "Secretar editorial al revistei ",
           "linkwords": "Annals of the University of Bucharest (Mathematical Series)",
           "link": "https://fmi.unibuc.ro/ro/annals_of_UB/"
         }

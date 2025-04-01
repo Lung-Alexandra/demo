@@ -1,24 +1,31 @@
-.page-section-content .archive{
+.page-section-content .archive,.page-section-content .simple-link {
     padding: 2px;
     border-radius: 3px;
     border-color: var(--text-color-slidebar);
-    border:1px solid;
+    border:0px solid;
     width: 95%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin:1%;
 }
-.archive i{
+
+.page-section-content .simple-link{
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.archive i, .simple-link i{
     padding-right: 20px;
     align-self: center;
 }
-.archive a{
+.archive a, .simple-link a{
     color: var(--link);
     text-decoration: none;
     align-self: flex-start;
-
 }
+
 .page-section-content embed{
     width: 95%;
     height: 85dvh;
