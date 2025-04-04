@@ -51,10 +51,12 @@ langSwitch.click(function () {
         langText.text("Ro");
         langSwitch.addClass("ro");
         setLanguage('ro');
+        $(document).trigger('languageChanged');
     } else if (currentText === "Ro") {
         langText.text("En");
         langSwitch.removeClass("ro");
         setLanguage('en');
+        $(document).trigger('languageChanged');
     }
 });
 

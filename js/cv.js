@@ -1,11 +1,13 @@
-function addCvData() {
-    $.getJSON('cv.json', function (jsonData) {
-// Function to generate HTML content for a section
+function addCvData(file) {
+    // Clear existing content first
+    $(".content").empty();
+
+    $.getJSON(file, function (jsonData) {
+        // Function to generate HTML content for a section
         function generateSectionHTML(title, content) {
             var sectionHTML = '<div class="page-section">' +
                 '<div class="page-section-title">' + title + '</div>' +
                 '<div class="line"></div>' +
-                // '<div class="geometric-box"></div>' +
                 '<div class="page-section-content">';
 
             let nrPhrases = 0;
@@ -46,7 +48,6 @@ function addCvData() {
                 }
             });
 
-
             return sectionHTML;
         }
 
@@ -54,10 +55,9 @@ function addCvData() {
         jsonData.sections.forEach(function (section, index) {
             $(".content").append(generateSectionHTML(section.title, section.content));
             $.each(section.style, function (property, value) {
-                $('.page-section-content').eq(index).css(property, value); 
+                $('.page-section-content').eq(index).css(property, value);
             });
         });
-
     });
 }
 
